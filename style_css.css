@@ -1,0 +1,161 @@
+  *{
+        box-sizing : border-box;
+      }
+      [class*="col-"] {float : left; padding : 15px;}
+      /* For Smartphone */
+      [class*="col-"] { width : 100%;}
+
+      @media only screen and (min-width : 600px) {
+        /* For Tablets */
+        .col-s-1 {width : 8.33%;}
+        .col-s-2 {width : 16.66%;}
+        .col-s-3 {width : 25%;}
+        .col-s-4 {width : 33.33%;}
+        .col-s-5 {width : 41.66%;}
+        .col-s-6 {width : 50%;}
+        .col-s-7 {width : 58.33%;}
+        .col-s-8 {width : 66.66%;}
+        .col-s-9 {width : 75%;}
+        .col-s-10 {width : 83.33%;}
+        .col-s-11 {width : 91.66%;}
+        .col-s-12 {width : 100%;}
+      }
+      @media only screen and (min-width : 768px) {
+        /* For Desktop */
+        .col-1 {width : 8.33%;}
+        .col-2 {width : 16.66%;}
+        .col-3 {width : 25%;}
+        .col-4 {width : 33.33%;}
+        .col-5 {width : 41.66%;}
+        .col-6 {width : 50%;}
+        .col-7 {width : 58.33%;}
+        .col-8 {width : 66.66%;}
+        .col-9 {width : 75%;}
+        .col-10 {width : 83.33%;}
+        .col-11 {width : 91.66%;}
+        .col-12 {width : 100%;}
+      }
+      .container{
+        width : 80%;
+        margin : 0 auto ;
+      }
+      .header{
+        height: 300px;
+        background: url("bali.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-bottom: inset;
+        border-color: green;
+        box-shadow: inset 0 0 0 500px rgba(0,0,0,0.5);
+      }
+      .header h1{
+        text-align : center;
+        color: #fff;
+        margin-top: 100px;
+      }
+    .pertama .borobudur{
+      height: 300px;
+      background: url("borobudur.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-color: green;
+      box-shadow: 0px 5px 5px;
+      border : 5px double darkgrey;
+      border-radius : 15%;
+    }
+    .kedua .bromo{
+      height: 300px;
+      background: url("bromo.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-color: green;
+      box-shadow: 0px 5px 5px;
+      border : 5px double darkgrey;
+      border-radius : 15%;
+    }
+    .ketiga .bunaken{
+      height: 250px;
+      background: url("bunaken.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-color: green;
+      box-shadow: 0px 5px 5px;
+      border : 5px double darkgrey;
+      border-radius : 15%;
+    }
+    .keempat .dermawan{
+      height: 300px;
+      background: url("dermawan.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-color: green;
+      box-shadow: 0px 5px 5px;
+      border : 5px double darkgrey;
+      border-radius : 15%;
+    }
+    .kelima .ijen{
+      height: 300px;
+      background: url("ijen.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-color: green;
+      box-shadow: 0px 5px 5px;
+      border : 5px double darkgrey;
+      border-radius : 15%;
+    }
+    .keenam .jayawijaya{
+      height: 300px;
+      background: url("jayawijaya.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-color: green;
+      box-shadow: 0px 5px 5px;
+      border : 5px double darkgrey;
+      border-radius : 15%;
+    }
+    .ketujuh .kelimutu{
+      height: 300px;
+      background: url("kelimutu.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-color: green;
+      box-shadow: 0px 5px 5px;
+      border : 5px double darkgrey;
+      border-radius : 15%;
+    }
+    .kedelapan .kerinci{
+      height: 300px;
+      background: url("kerinci.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-color: green;
+      box-shadow: 0px 5px 5px;
+      border : 5px double darkgrey;
+      border-radius : 15%;
+    }
+    .kesembilan .komodo{
+      height: 300px;
+      background: url("komodo.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-color: green;
+      box-shadow: 0px 5px 5px;
+      border : 5px double darkgrey;
+      border-radius : 15%;
+    }
+    .kesepuluh .lombok{
+      height: 300px;
+      background: url("lombok.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-color: green;
+      box-shadow: 0px 5px 5px;
+      border : 5px double darkgrey;
+      border-radius : 15%;
+    }
+    .tittle{
+      color : #757272;
+      text-align: center;
+    }
+    [class*="artikel-"]
+    { font-family : Century; color: #757272; text-align: justify;}
